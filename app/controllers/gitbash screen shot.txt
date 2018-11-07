@@ -1,0 +1,111 @@
+erb@DESKTOP-QRMNF8R /c/Sites
+$ c:
+sh.exe": c:: command not found
+
+erb@DESKTOP-QRMNF8R /c/Sites
+$ cd c
+sh.exe": cd: c: No such file or directory
+
+erb@DESKTOP-QRMNF8R /c/Sites
+$ cd c:
+
+erb@DESKTOP-QRMNF8R /c
+$ cdir
+sh.exe": cdir: command not found
+
+erb@DESKTOP-QRMNF8R /c
+$
+
+erb@DESKTOP-QRMNF8R /c
+$ dir
+sh.exe": dir: command not found
+
+erb@DESKTOP-QRMNF8R /c
+$ ls
+$RECYCLE.BIN            Intel                ProgramData     System Volume Information  hiberfil.sys
+Bitnami                 MSOCache             RailsInstaller  Users                      pagefile.sys
+Bluefish                Program Files        Recovery        Windows                    swapfile.sys
+Documents and Settings  Program Files (x86)  Sites           [Smad-Cage]
+
+erb@DESKTOP-QRMNF8R /c
+$ cd sites
+
+erb@DESKTOP-QRMNF8R /c/sites
+$ ls
+blog  new  projrails  todo
+
+erb@DESKTOP-QRMNF8R /c/sites
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/erb/.ssh/id_rsa):
+/c/Users/erb/.ssh/id_rsa already exists.
+Overwrite (y/n)? n
+
+erb@DESKTOP-QRMNF8R /c/sites
+$ cd ~id_rsa.pub
+
+erb@DESKTOP-QRMNF8R /
+$ cat id_rsa.pub
+cat: id_rsa.pub: No such file or directory
+
+erb@DESKTOP-QRMNF8R /
+$ cd ~.ssh
+
+erb@DESKTOP-QRMNF8R /
+$ cd ~/.ssh
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ ls
+id_rsa  id_rsa.pub
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHF2j/FGZW6PNfBHIVRMWOBiwho8Do/Vq6kJSX1luuEaRAc9UJfOh3m3LIC0utgHWVl4rigW61U1DJS0adpsoREmwzFkS0Ip2fB4kIjIkxoRrk8ImIqYt/E11zLkOlnEqANNh7+6fuyL7z9mWcnIWa8/fAXk5LaErOX5Jb7j4br0z+qG/HAmoId+wZoNsDPHmjNQLjwUIYIxYObkVBqMMKVk1Ne/ENNdh1QSRQaa0Xclu2e7BceYADE5r3QLZr2c99vIN16L7tuHwRb/+AOAykhbUetctj+lbYBSQVFMS03u0VQeWFzhFQQG5HP1hDZykC9Sa9DsdvbbUEPaEmqv+l erb <imxerb@gmail.com>
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ git clone git@github.com:imserb/csruby.git
+Cloning into 'csruby'...
+ssh: connect to host github.com port 22: Bad file number
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ git config -- global user.name erb
+error: key does not contain a section: global
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ git config --global user.name erb
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ git config --global user.email imxerb@gmail.com
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ git clone git@github.com:imserb/csruby.git
+Cloning into 'csruby'...
+ssh: connect to host github.com port 22: Bad file number
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ ssh -v git@github.com
+OpenSSH_6.6.1, OpenSSL 1.0.1i 6 Aug 2014
+debug1: Connecting to github.com [192.30.253.112] port 22.
+debug1: connect to address 192.30.253.112 port 22: Attempt to connect timed out without establishing a connection
+debug1: Connecting to github.com [192.30.253.113] port 22.
+debug1: connect to address 192.30.253.113 port 22: Attempt to connect timed out without establishing a connection
+ssh: connect to host github.com port 22: Bad file number
+
+erb@DESKTOP-QRMNF8R ~/.ssh
+$ c:
+
+
+
+
+
+
+
+
