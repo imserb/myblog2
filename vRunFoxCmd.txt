@@ -1,0 +1,12 @@
+use i:\matrak11
+use i:\mtrak11
+edit
+edit for lname = 'CONCEPCION'
+use d:\pnas5rjt
+set defa d:\pnas5rjt
+use c:\master03
+use
+use c:\master03
+use c:\mastersr3
+use c:\mastersr
+quit
