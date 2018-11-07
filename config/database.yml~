@@ -32,8 +32,8 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/myblog2_test
+  database: db/test.sqlite3
 
 production:
   <<: *default
-  database: Myblog2_production
+  database: db/production.sqlite3
